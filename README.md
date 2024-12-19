@@ -1,26 +1,27 @@
-Clustering Techniques
+# Clustering Techniques
 
 This repository implements two popular clustering techniques, **K-Means Clustering** and **Hierarchical Clustering**, using the **Life Expectancy Dataset**. The objective is to analyze the dataset, cluster the data, and evaluate the clustering performance using the Silhouette Score.
 
-
- Repository Structure
+# Repository Structure
 ├── data/                # Contains the dataset and pre-processed data
+
 ├── notebooks/           # Jupyter Notebooks for detailed exploration and implementation
+
 ├── src/                 # Python scripts for clustering models and utilities
-├── results/             # Outputs and visualizations of clustering
+
 ├── README.md            # Project overview (this file)
 
-Dataset
+# Dataset
 **Life Expectancy Dataset:**
 - The dataset contains data on life expectancy, various health factors, and economic indicators.
 - Prior to applying clustering techniques, the dataset was pre-processed to ensure consistency and remove any potential biases.
 
-Pre-processing steps include:
+# Pre-processing steps include:
 - Handling missing values
 - Normalizing numerical features
 - Encoding categorical variables (if any)
 
-Clustering Techniques
+# Clustering Techniques
 1. K-Means Clustering
 - A centroid-based clustering technique that partitions the data into k clusters.
 - Implementation details:
